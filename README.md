@@ -80,10 +80,6 @@ modelos
 
 <br>
 
-### ¿Cómo conseguir modelos?.
-* Únase al[ AI Hub](https://discord.gg/aihub) Discord
-* [Modelos comunitarios en HuggingFace](https://huggingface.co/QuickWick/Music-AI-Voices/tree/main) de Wicked, también conocido como QuickWick
-
 <br>
 
 K7#4523
