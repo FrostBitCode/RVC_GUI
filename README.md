@@ -1,7 +1,3 @@
-1. Download RVC-GUI-pkg.zip
-2. Unzip anywhere
-3. Run RVC-GUI.bat
-2023/05/25 - Download latest RVC-GUI-pkg-mp3fix.zip
 <div alinear="centro">
 
 <h1>GUI de RVC<br><br>
