@@ -1,10 +1,10 @@
-<div align="center">
+<div alinear="centro">
 
-<h1>RVC GUI<br><br>
+<h1>GUI de RVC<br><br>
   
-For audio file inference only
+Solo para inferencia de archivos de audio
 
-  <br>
+   <br>
 
   
 
@@ -18,74 +18,73 @@ For audio file inference only
 ## GUI
 
 ![GUI](https://github.com/Tiger14n/RVC-GUI/raw/main/docs/GUI.JPG)
- <br><br>
+  <br><br>
   
-## Direct setup for Windows users
-## [Windows-pkg](https://github.com/Tiger14n/RVC-GUI/releases/tag/Windows-pkg)
+## Configuración directa para usuarios de Windows
+## [Paquete de Windows](https://github.com/Tiger14n/RVC-GUI/releases/tag/Windows-pkg)
   
 <br><br>
-## Preparing the environment
+## Preparando el ambiente
 
 
-* Install Python version +3.8 if you have not:
+* Instale la versión de Python +3.8 si no la tiene:
 
-* Execute these commands
+* Ejecutar estos comandos
 
-Windows with Nvidia cards
+Windows con tarjetas Nvidia
 ```bash
-python -m pip install -U pip setuptools wheel
-pip install -U torch torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install -r requirements.txt
+python -m pip install -U rueda de herramientas de configuración de pip
+pip install -U antorcha torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -r requisitos.txt
 ```
-Other
+Otro
 ```
-python -m pip install -U pip setuptools wheel
-pip install -U torch torchaudio 
-pip install -r requirements.txt
+python -m pip install -U rueda de herramientas de configuración de pip
+pip install -U antorcha torchaudio
+pip install -r requisitos.txt
 ```
 <br>
 
-* Downlaod [hubert_base.pt](https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt/) and place it in the root folder
+* Descargue [hubert_base.pt](https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt/) y colóquelo en la carpeta raíz
 
 <br>
  
-* Then use this command to start RVC GUI:
+* Luego use este comando para iniciar la GUI de RVC:
 ```bash
 python rvcgui.py
 ```
-Or run this file on windows
+O ejecute este archivo en Windows
 ```
 RVC-GUI.bat
 ```
 
-# Loading models
-use the import button to import a model from a zip file, 
-* The .zip must contain the ".pth" weight file. 
-* The .zip is recommended to contain the feature retrieval files ".index"
+# Cargando modelos
+use el botón de importación para importar un modelo desde un archivo zip,
+* El .zip debe contener el archivo de peso ".pth".
+* Se recomienda que el .zip contenga los archivos de recuperación de características ".index"
 
-Or place the model manually in root/models
+O coloque el modelo manualmente en root/models
 ```
-models
-├───Person1
-│   ├───xxxx.pth
-│   ├───xxxx.index
-│   └───xxxx.npy
-└───Person2
-    ├───xxxx.pth
-    ├───...
-    └───...
+modelos
+├───Persona1
+│ ├───xxxx.pth
+│ ├───xxxx.índice
+│ └───xxxx.npy
+└───Persona2
+     ├───xxxx.pth
+     ├───...
+     └───...
 ````
 <br>
 
 
-<br> 
+<br>
 
-### How to get models?.
-* Join the[ AI Hub](https://discord.gg/aihub) Discord 
-* [Community Models on HuggingFace](https://huggingface.co/QuickWick/Music-AI-Voices/tree/main) by Wicked aka QuickWick
+### ¿Cómo conseguir modelos?.
+* Únase al[ AI Hub](https://discord.gg/aihub) Discord
+* [Modelos comunitarios en HuggingFace](https://huggingface.co/QuickWick/Music-AI-Voices/tree/main) de Wicked, también conocido como QuickWick
 
 <br>
 
 K7#4523
-
 
