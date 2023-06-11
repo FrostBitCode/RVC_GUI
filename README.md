@@ -12,13 +12,16 @@ For audio file inference only
 
   
 
-
+ 
 
   
 ## GUI
 
-![GUI](https://github.com/Tiger14n/RVC-GUI/raw/main/docs/GUI1.JPG)
+![GUI](https://github.com/Tiger14n/RVC-GUI/raw/main/docs/GUI.JPG)
+ <br><br>
   
+## Direct setup for Windows users
+## [Windows-pkg](https://github.com/Tiger14n/RVC-GUI/releases/tag/Windows-pkg)
   
 <br><br>
 ## Preparing the environment
@@ -28,13 +31,18 @@ For audio file inference only
 
 * Execute these commands
 
-For Windows and Nvidia card users
+Windows with Nvidia cards
 ```bash
 python -m pip install -U pip setuptools wheel
 pip install -U torch torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
-
+Other
+```
+python -m pip install -U pip setuptools wheel
+pip install -U torch torchaudio 
+pip install -r requirements.txt
+```
 <br>
 
 * Downlaod [hubert_base.pt](https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt/) and place it in the root folder
@@ -53,11 +61,11 @@ RVC-GUI.bat
 # Loading models
 use the import button to import a model from a zip file, 
 * The .zip must contain the ".pth" weight file. 
-* The .zip is recommended to contain the feature retrieval files ".index, .npy"
+* The .zip is recommended to contain the feature retrieval files ".index"
 
 Or place the model manually in root/models
 ```
-Models
+models
 ├───Person1
 │   ├───xxxx.pth
 │   ├───xxxx.index
@@ -70,5 +78,14 @@ Models
 <br>
 
 
+<br> 
+
+### How to get models?.
+* Join the[ AI Hub](https://discord.gg/aihub) Discord 
+* [Community Models on HuggingFace](https://huggingface.co/QuickWick/Music-AI-Voices/tree/main) by Wicked aka QuickWick
+
+<br>
+
+K7#4523
 
 
